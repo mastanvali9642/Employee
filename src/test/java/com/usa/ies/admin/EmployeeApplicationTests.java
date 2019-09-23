@@ -20,6 +20,16 @@ public class EmployeeApplicationTests {
 	@Autowired
 	EmployeeRepository employeeRepository;
 	
+	@Test
+	@Ignore
+	public void test_count() {
 		
+	long count=	employeeRepository.fetchCount();
+	assertEquals(count, 15);
+
+		
+	}
+	
+	
 	
 }
