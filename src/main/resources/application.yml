@@ -1,0 +1,19 @@
+server:
+  port: 1001
+  servlet:
+    context-path: /emp
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver   
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: system
+    password: 12345678
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true   
+ 
+hibernate:
+  cache:
+    use_second_level_cache: true
+    region.factory_class: org.hibernate.cache.ehcache.EhCacheRegionFactory

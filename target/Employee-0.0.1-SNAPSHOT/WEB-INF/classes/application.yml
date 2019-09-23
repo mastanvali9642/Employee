@@ -1,0 +1,15 @@
+server:
+  port: 1001
+  servlet:
+    context-path: /emp
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver   
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: system
+    password: 12345678
+  jpa:
+    hibernate:
+      ddl-auto: upadte
+    show-sql: true   
+ 
