@@ -18,10 +18,6 @@ public class EmployeeApplicationTests {
 	
 	@Autowired
 	EmployeeRepository employeeRepository;
-	@Before
-	public void before_countTest() {
-		System.out.println("first stmt");
-	}
 	
 	@Test
 	public void test_count() {
@@ -32,10 +28,6 @@ public class EmployeeApplicationTests {
 		
 	}
 	
-	@After
-	public void after_testCount() {
-		System.out.println("last stmt");
-	}
-
+	
 	
 }
