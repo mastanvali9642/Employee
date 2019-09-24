@@ -28,6 +28,7 @@ public class EmployeeController {
 	
 	@GetMapping("/getEmp/{id}")
 	public Employee getEmployee(@PathVariable("id") int id) {
+	System.out.println("I love you");
 	return employeeRepository.findById(id).get();
 	}
 	@GetMapping("/count")
