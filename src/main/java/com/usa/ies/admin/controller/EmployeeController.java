@@ -18,7 +18,6 @@ import com.usa.ies.admin.entities.Employee;
 import com.usa.ies.admin.repo.DeptRepository;
 import com.usa.ies.admin.repo.EmployeeRepository;
 
-@RestController
 public class EmployeeController {
 	@Autowired
 	EmployeeRepository employeeRepository;

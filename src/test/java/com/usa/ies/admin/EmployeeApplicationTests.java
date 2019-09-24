@@ -23,7 +23,7 @@ public class EmployeeApplicationTests {
 
 	public void test_count() {
 		
-	long count=	employeeRepository.fetchCount();
+	long =	employeeRepository.fetchCount();
 	assertEquals(count, 15);
 
 		
